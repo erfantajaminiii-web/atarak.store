@@ -1076,9 +1076,9 @@ footer>div {
     }
 }
 
-@media (min-width:100px) and (max-width: 415px) {
+@media (min-width:100px) and (max-width: 430px) {
     .product-swiper .swiper-slide img {
-        height: 108px;
+        height: 145px;
     }
 
     .imgs_produck>div {
@@ -1086,7 +1086,7 @@ footer>div {
     }
 }
 
-@media (max-width:300px) {
+@media (max-width:325px) {
     .product-swiper .swiper-slide img {
         height: 100px;
     }

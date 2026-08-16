@@ -11,33 +11,6 @@ const brands_swiper =new Swiper('.brands-swiper' , {
     slidesPerView: 'auto',
     spaceBetween: 15,
     grabCursor: true,
-})
-const categorySwiper = new Swiper('.category-swiper', {
-    slidesPerView: 2,
-    spaceBetween: 10,
-    grabCursor: true,
-
-    breakpoints: {
-        450: {
-            slidesPerView: 3,
-            spaceBetween: 10,
-        },
-
-        576: {
-            slidesPerView: 3,
-            spaceBetween: 15,
-        },
-
-        768: {
-            slidesPerView: 4,
-            spaceBetween: 15,
-        },
-
-        992: {
-            slidesPerView: 5,
-            spaceBetween: 20,
-        }
-    }
 });
 //
 let hambergery = document.querySelector('.menu_mobile');
