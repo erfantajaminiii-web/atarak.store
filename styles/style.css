@@ -1036,6 +1036,10 @@ footer>div {
         justify-content: center;
     }
 
+    .brands-swiper .swiper-slide img {
+        width: 50px;
+    }
+
     .img_motor {
         width: 200px;
     }
