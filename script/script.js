@@ -27,3 +27,8 @@ close_meno.addEventListener('click', () => {
     bgc.classList.remove('help_menu_open');
     document.body.classList.remove('for_meno_mobile');
 })
+bgc.addEventListener('click' , () =>{
+    meno.classList.remove('open_meno');
+    bgc.classList.remove('help_menu_open');
+    document.body.classList.remove('for_meno_mobile');
+})

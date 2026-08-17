@@ -339,6 +339,9 @@ header a {
     justify-content: space-evenly;
     padding: 10px;
 }
+.products::-webkit-scrollbar , .container_end_box::-webkit-scrollbar{
+    display: none;
+}
 
 .boxs_products {
     display: flex;
@@ -485,7 +488,7 @@ footer>div {
 .meno {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
     position: fixed;
     height: 100vh;
     width: 0;
@@ -509,6 +512,8 @@ footer>div {
     align-items: center;
     gap: 5px;
     font-size: 13px;
+    width: 85%;
+    padding: 5px;
 }
 
 .meno i {
@@ -532,16 +537,13 @@ footer>div {
 
 .btn_close_meno {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 8px;
+    left: 20px;
     transform: translate(-50%);
-    padding: 4px 5px 2px;
     background-color: rgb(255, 255, 255);
-    font-weight: bold;
-    border: 2px solid rgb(123, 193, 66);
-    border-radius: 50%;
+    border: none;
     color: rgb(123, 193, 66);
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .title_meno_mobile {
@@ -1070,7 +1072,7 @@ footer>div {
     }
 
     footer span {
-        font-size: 9px;
+        font-size: 13px;
     }
 }
 
@@ -1081,6 +1083,9 @@ footer>div {
 
     .imgs_produck>div {
         border-radius: 15px;
+    }
+    footer span {
+        font-size: 10px;
     }
 }
 
@@ -1128,5 +1133,8 @@ footer>div {
 
     .items_5 {
         height: 40px;
+    }
+    footer span {
+        font-size: 8px;
     }
 }
