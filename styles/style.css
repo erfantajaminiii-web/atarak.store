@@ -25,8 +25,6 @@ body.for_meno_mobile {
     overflow: hidden;
 }
 
-header {}
-
 header a {
     text-decoration: none;
     color: white;
@@ -395,8 +393,6 @@ header a {
     gap: 30px;
 }
 
-.title_motor {}
-
 .pragraph_motor {
     font-size: 20px;
 }
@@ -476,8 +472,6 @@ header a {
     padding: 5px;
     border-radius: 10px;
 }
-
-.img_end_box {}
 
 footer {
     margin-top: 30px;
