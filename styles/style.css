@@ -205,7 +205,7 @@ header a {
 
 .product-swiper .swiper-slide img {
     width: 100%;
-    height: 495px;
+    height: max-content;
     display: block;
     object-fit: cover;
 }
@@ -557,11 +557,8 @@ footer>div {
     justify-content: space-between;
 }
 
-@media (min-width: 1200px) and (max-width:1400px) {
-    .product-swiper .swiper-slide img {
-        height: 425px;
-    }
 
+@media (min-width: 1200px) and (max-width:1400px) {
     .piece_product {
         gap: 40px;
     }
@@ -589,10 +586,6 @@ footer>div {
 }
 
 @media (min-width:100px) and (max-width:1200px) {
-    .product-swiper .swiper-slide img {
-        height: 360px;
-    }
-
     .imgs_produck>div {
         border-radius: 45px;
     }
@@ -625,10 +618,6 @@ footer>div {
 }
 
 @media (min-width:100px) and (max-width: 992px) {
-    .product-swiper .swiper-slide img {
-        height: 270px;
-    }
-
     .imgs_produck>div {
         border-radius: 35px;
     }
@@ -691,10 +680,6 @@ footer>div {
 }
 
 @media (min-width:100px) and (max-width: 768px) {
-    .product-swiper .swiper-slide img {
-        height: 200px;
-    }
-
     .imgs_produck>div {
         border-radius: 25px;
     }
@@ -796,8 +781,8 @@ footer>div {
 }
 
 @media (min-width:450px) and (max-width: 576px) {
-    .product-swiper .swiper-slide img {
-        height: 168px;
+    .product-swiper .swiper-wrapper {
+        height: 300px;
     }
 
     .imgs_produck>div {
@@ -917,8 +902,8 @@ footer>div {
 }
 
 @media (min-width:100px) and (max-width: 450px) {
-    .product-swiper .swiper-slide img {
-        height: 155px;
+    .product-swiper .swiper-wrapper {
+        height: 220px;
     }
 
     .imgs_produck>div {
@@ -1071,8 +1056,8 @@ footer>div {
 }
 
 @media (min-width:100px) and (max-width: 430px) {
-    .product-swiper .swiper-slide img {
-        height: 145px;
+    .product-swiper .swiper-wrapper {
+        height: 220px;
     }
 
     .imgs_produck>div {
@@ -1093,9 +1078,15 @@ footer>div {
     }
 }
 
+@media (min-width:100px) and (max-width: 400px) {
+    .product-swiper .swiper-wrapper {
+        height: 190px;
+    }
+}
+
 @media (max-width:325px) {
-    .product-swiper .swiper-slide img {
-        height: 100px;
+    .product-swiper .swiper-wrapper {
+        height: 150px;
     }
 
     .imgs_produck>div {
