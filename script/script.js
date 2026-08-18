@@ -2,7 +2,7 @@
 const swiper = new Swiper('.product-swiper', {
     loop: true,
     autoplay: {
-        delay: 2500,
+        delay: 250000,
         disableOnInteraction: false,
     },
     speed: 800,
@@ -11,6 +11,37 @@ const brands_swiper =new Swiper('.brands-swiper' , {
     slidesPerView: 'auto',
     spaceBetween: 15,
     grabCursor: true,
+});
+const img_small_swiper = new Swiper('.img-small-swiper', {
+    slidesPerView: 5,
+    spaceBetween: 25,
+    grabCursor: true,
+    breakpoints: {
+        0: {
+            slidesPerView: 3,
+            spaceBetween: 5,
+        },
+        450: {
+            slidesPerView: 3.5,
+            spaceBetween: 8,
+        },
+        576: {  
+            slidesPerView: 4,
+            spaceBetween: 10,
+        },
+        768: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+        },
+        992: {
+            slidesPerView: 4,
+            spaceBetween: 15,
+        },
+        1200: {
+            slidesPerView: 5,
+            spaceBetween: 25,
+        },
+    },
 });
 //
 let hambergery = document.querySelector('.menu_mobile');
